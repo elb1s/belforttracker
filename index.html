@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title> Belfort Tracker</title>
+</head>
+<body>
+    <div class="app">
+
+        <h1>Belfort Tracker</h1>
+        <div class="balance-container">
+            <h2>Your Balance</h2>
+            <div id="balance">$0</div>
+        </div>
+        
+
+
+        <div class="cashflow-container">
+            <div class="income-container">
+                <h2>Income</h2>
+                <div id="income">$0</div>
+            </div>
+            <div class="expense-container">
+                <h2>Expense</h2>
+                <div id="expense">$0</div>
+            </div>
+        </div>
+
+        <div class="transaction-container">
+            <h2>Transaction History</h2>
+            <ul id="transaction">
+           
+            </ul>
+        </div>
+        <div class="form-container">
+            <h2> new Transection</h2>
+            <form onsubmit="return false">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="amount">Amount</label>
+                <input id="amount" type="number" >
+                <button id="incomeBtn" >Income</button>
+                <button id="expenseBtn">Expense</button>
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
