@@ -1,4 +1,5 @@
-![2022-12-07 16_02_59-Belfort Tracker](https://user-images.githubusercontent.com/77449139/206186337-7a4aefc2-da46-4d10-9b01-f3cadbc353ee.png)
+<p align="center" >Belfort Tracker is an expense tracker in local storage.</p> <br>
 
-
-Belfort Tracker is an expense tracker in local storage.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77449139/206186946-ff0cf049-5b06-4a35-a19c-3afa7967e3a4.png">
+</p>
